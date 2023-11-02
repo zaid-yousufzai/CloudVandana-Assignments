@@ -1,0 +1,38 @@
+body{
+    background: grey;
+}
+table.tbl{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px;
+    
+    border: 2px solid black;
+    
+}
+
+input[type="button"]{
+    color: white;
+    cursor: pointer;
+     background-color: black;
+    font-size: 2em;
+    border: 0px solid #ddd;
+    padding: 20px;
+    width: 100%;
+    
+}
+input[type="text"]{
+    color: black;
+    background: white;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 2em;
+    width: 100%;
+
+}
+#clear{
+    background: lightseagreen;
+    border: 1px solid lightseagreen;
+    color: white;
+}
